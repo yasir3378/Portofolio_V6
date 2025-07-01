@@ -120,40 +120,37 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
     return (
         <form onSubmit={handleSubmit} className="space-y-6">
             <div className="space-y-2" data-aos="fade-up" data-aos-duration="1000">
-                <label className="block text-sm font-medium text-white">
-                    Name <span className="text-red-400">*</span>
-                </label>
-                <input
-                    type="text"
-                    value={userName}
-                    onChange={(e) => setUserName(e.target.value)}
-                     maxLength={15}
-                    placeholder="Enter your name"
-                    className="w-full p-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-400 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all"
-                    required
-                />
+                <label className="block text-sm font-bold text-purple-500">
+  Name <span className="text-purple-500">*</span>
+</label>
+<input
+  type="text"
+  value={userName}
+  onChange={(e) => setUserName(e.target.value)}
+  maxLength={15}
+  placeholder="Enter your name"
+  className="w-full p-3 rounded-xl bg-white/5 border custom-border text-black placeholder:text-black-50 focus:outline-none focus:border-indigo-500 focus:ring-indigo-500"
+/>
             </div>
 
             <div className="space-y-2" data-aos="fade-up" data-aos-duration="1200">
-                <label className="block text-sm font-medium text-white">
-                    Message <span className="text-red-400">*</span>
-                </label>
-                <textarea
-                    ref={textareaRef}
-                    value={newComment}
-                     maxLength={200}
-
-                    onChange={handleTextareaChange}
-                    placeholder="Write your message here..."
-                    className="w-full p-4 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-400 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all resize-none min-h-[120px]"
-                    required
-                />
+            <label className="block text-sm font-bold text-purple-500">
+  Message <span className="text-purple-500">*</span>
+</label>
+<textarea
+  ref={textareaRef}
+  value={newComment}
+  maxLength={200}
+  onChange={handleTextareaChange}
+  placeholder="Write your message here..."
+  className="w-full p-4 rounded-xl bg-white/5 border custom-border text-black placeholder:text-black-50 focus:outline-none focus:border-indigo-500 focus:ring-indigo-500"
+/>
             </div>
 
             <div className="space-y-2" data-aos="fade-up" data-aos-duration="1400">
-                <label className="block text-sm font-medium text-white">
-                    Profile Photo <span className="text-gray-400">(optional)</span>
-                </label>
+                <label className="block text-sm font-bold text-purple-500">
+  Profile Photo <span className="font-bold text-purple-500">(optional)</span>
+</label>
                 <div className="flex items-center gap-4 p-4 bg-white/5 border border-white/10 rounded-xl">
                     {imagePreview ? (
                         <div className="flex items-center gap-4">
@@ -215,8 +212,7 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
                         </>
                     ) : (
                         <>
-                            <Send className="w-4 h-4" />
-                            <span>Post Comment</span>
+                            <span className="text-sky-500">Post Comment</span>
                         </>
                     )}
                 </div>
@@ -387,9 +383,10 @@ const Komentar = () => {
                     <div className="p-2 rounded-xl bg-indigo-500/20">
                         <MessageCircle className="w-6 h-6 text-indigo-400" />
                     </div>
-                    <h3 className="text-xl font-semibold text-white">
-                        Comments <span className="text-indigo-400">({totalComments})</span>
-                    </h3>
+                    <h3 className="text-xl font-semibold">
+    <span className="text-[#7C3AED]">Comments</span>
+    <span className="text-[#7C3AED]">({totalComments})</span>
+</h3>
                 </div>
             </div>
             <div className="p-6 space-y-6">

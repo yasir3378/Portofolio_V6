@@ -7,13 +7,9 @@ import 'aos/dist/aos.css'
 const Header = memo(() => (
   <div className="text-center lg:mb-8 mb-2 px-[5%]">
     <div className="inline-block relative group">
-      <h2 
-        className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]" 
-        data-aos="zoom-in-up"
-        data-aos-duration="600"
-      >
-        About Me
-      </h2>
+    <h2 className="text-4xl md:text-5xl font-bold text-white" data-aos="zoom-in-up" data-aos-duration="600">
+      About Me
+    </h2>
     </div>
     <p 
       className="mt-2 text-gray-400 max-w-2xl mx-auto text-base sm:text-lg flex items-center justify-center gap-2"
@@ -50,7 +46,7 @@ const ProfileImage = memo(() => (
           <div className="absolute inset-0 bg-gradient-to-t from-purple-500/20 via-transparent to-blue-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 hidden sm:block" />
           
           <img
-            src="/Photo.jpg"
+            src="public/6785B3F8-29CE-42B8-A446-C16481CCBADC_1_105_c.jpeg"
             alt="Profile"
             className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
             loading="lazy"
@@ -197,15 +193,15 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1000"
             >
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]">
-                Hello, I'm
-              </span>
+              <span className="text-white font-bold">
+  Hello, I'm
+</span>
               <span 
                 className="block mt-2 text-gray-200"
                 data-aos="fade-right"
                 data-aos-duration="1300"
               >
-                Eki Zulfar Rachman
+                Mahfuzur Rahman
               </span>
             </h2>
             
@@ -214,7 +210,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-             Seorang lulusan Teknik Jaringan Komputer dan Telekomunikasi yang memiliki ketertarikan besar dalam pengembangan Front-End. Saya berfokus pada menciptakan pengalaman digital yang menarik dan selalu berusaha memberikan solusi terbaik dalam setiap proyek yang saya kerjakan.
+              A passionate developer skilled in web and app development, including Shopify. I combine creative design with effective email marketing strategies to help businesses grow and stand out online.
             </p>
 
                {/* Quote Section */}
