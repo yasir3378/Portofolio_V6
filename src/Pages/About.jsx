@@ -46,11 +46,11 @@ const ProfileImage = memo(() => (
           <div className="absolute inset-0 bg-gradient-to-t from-purple-500/20 via-transparent to-blue-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 hidden sm:block" />
           
           <img
-            src="public/6785B3F8-29CE-42B8-A446-C16481CCBADC_1_105_c.jpeg"
-            alt="Profile"
-            className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
-            loading="lazy"
-          />
+  src="/6785B3F8-29CE-42B8-A446-C16481CCBADC_1_105_c.jpeg"
+  alt="Profile"
+  className="full-h full-w object-cover ..."
+  loading="lazy"
+/>
 
           {/* Advanced hover effects - desktop only */}
           <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-700 z-20 hidden sm:block">
