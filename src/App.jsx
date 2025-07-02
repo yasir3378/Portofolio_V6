@@ -27,6 +27,13 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
           <Navbar />
           <AnimatedBackground />
           <Home />
+          <div className="flex justify-center py-6">
+      <img
+        src="/6785B3F8-29CE-42B8-A446-C16481CCBADC_1_105_c.jpeg"
+        alt="My Photo"
+        className="w-[220px] h-[220px] rounded-full border-4 border-white shadow-lg"
+      />
+    </div>
           <About />
           <Portofolio />
           <ContactPage />
