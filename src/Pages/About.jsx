@@ -47,9 +47,8 @@ const ProfileImage = memo(() => (
           
           <img
   src="/6785B3F8-29CE-42B8-A446-C16481CCBADC_1_105_c.jpeg"
-  alt="Profile"
-  className="full-h full-w object-cover ..."
-  loading="lazy"
+  alt="My photo"
+  className="w-60 h-60 rounded-full object-cover"
 />
 
           {/* Advanced hover effects - desktop only */}
