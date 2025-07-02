@@ -41,11 +41,11 @@ const ProfileImage = memo(() => (
         <div className="w-72 h-72 sm:w-80 sm:h-80 rounded-full overflow-hidden shadow-[0_0_40px_rgba(120,119,198,0.3)] transform transition-all duration-700 group-hover:scale-105">
           <div className="absolute inset-0 border-4 border-white/20 rounded-full z-20 transition-all duration-700 group-hover:border-white/40 group-hover:scale-105" />
           
-          <div className="relative w-60 h-60 sm:w-72 sm:h-72 mx-auto rounded-full shadow-xl overflow-hidden border-4 border-white z-10">
+          <div className="flex items-center justify-center w-full py-6">
   <img
     src="/6785B3F8-29CE-42B8-A446-C16481CCBADC_1_105_c.jpeg"
     alt="Profile"
-    className="w-full h-full object-cover"
+    className="w-[250px] h-[250px] rounded-full border-4 border-white shadow-md"
   />
 </div>
           {/* Advanced hover effects - desktop only */}
