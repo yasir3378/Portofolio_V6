@@ -41,7 +41,7 @@ const ProfileImage = memo(() => (
 
           <div className="flex items-center justify-center w-full h-full">
             <img
-              src="/profile.jpeg"
+              src="/profile.jpg"
               alt="Mahfuzur Rahman"
               className="w-full h-full object-cover rounded-full shadow-lg border-4 border-white"
             />
