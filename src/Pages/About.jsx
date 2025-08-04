@@ -40,7 +40,7 @@ const ProfileImage = memo(() => (
           <div className="absolute inset-0 border-4 border-white/20 rounded-full z-20 transition-all duration-700 group-hover:border-white/40 group-hover:scale-105" />
 
           <div className="flex items-center justify-center w-full h-full">
-          <img src="/profile.jpg" alt="Mahfuzur Rahman" className="w-full h-full object-cover rounded-full shadow-lg border-4 border-white" />
+          <img src="/pp.jpg" alt="Mahfuzur Rahman" className="w-full h-full object-cover rounded-full shadow-lg border-4 border-white" />
           </div>
         </div>
 
